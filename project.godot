@@ -12,6 +12,8 @@ config_version=5
 
 run/main_scene="uid://cq41qyc7st562"
 config/features=PackedStringArray("4.4")
+run/max_fps=24
+run/low_processor_mode=true
 boot_splash/bg_color=Color(0, 0, 0, 1)
 boot_splash/use_filter=false
 boot_splash/image="uid://bgdhw265xvxeu"
@@ -24,6 +26,10 @@ DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 [dialogue_manager]
 
 runtime/balloon_path="res://objetos/balloon.tscn"
+
+[display]
+
+window/ios/allow_high_refresh_rate=false
 
 [editor_plugins]
 
@@ -116,6 +122,10 @@ pointing/emulate_touch_from_mouse=true
 
 locale/translations_pot_files=PackedStringArray("res://dialogue/main.dialogue", "res://dialogue/item1.dialogue", "res://dialogue/item2.dialogue", "res://dialogue/item3.dialogue", "res://dialogue/item4.dialogue", "res://dialogue/item5.dialogue", "res://item0.dialogue", "res://dialogue/npc.dialogue", "res://intro.dialogue")
 
+[memory]
+
+limits/message_queue/max_size_mb=256
+
 [physics]
 
 common/enable_pause_aware_picking=true
@@ -123,35 +133,60 @@ common/enable_pause_aware_picking=true
 [rendering]
 
 occlusion_culling/bvh_build_quality=0
-rendering_device/staging_buffer/max_size_mb=64
+rendering_device/staging_buffer/max_size_mb=32
+rendering_device/vulkan/max_descriptors_per_pool=128
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/webp_compression/compression_method=4
+limits/time/time_rollover_secs=32.0
 lights_and_shadows/directional_shadow/size=256
 lights_and_shadows/directional_shadow/size.mobile=256
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=0
 lights_and_shadows/positional_shadow/soft_shadow_filter_quality=0
-2d/shadow_atlas/size=1024
-2d/batching/item_buffer_size=8192
-2d/batching/uniform_set_cache_size=2048
+2d/shadow_atlas/size=256
+2d/batching/item_buffer_size=4096
+2d/batching/uniform_set_cache_size=1024
 gl_compatibility/item_buffer_size=8192
-reflections/sky_reflections/roughness_layers=2
-reflections/reflection_atlas/reflection_size=128
+reflections/sky_reflections/roughness_layers=1
+reflections/sky_reflections/texture_array_reflections=false
+reflections/sky_reflections/ggx_samples=16
+reflections/reflection_atlas/reflection_size=16
+reflections/reflection_atlas/reflection_size.mobile=16
+reflections/reflection_atlas/reflection_count=16
 global_illumination/gi/use_half_resolution=true
 shading/overrides/force_vertex_shading=true
 shading/overrides/force_lambert_over_burley=true
 textures/default_filters/use_nearest_mipmap_filter=true
 textures/default_filters/anisotropic_filtering_level=0
+camera/depth_of_field/depth_of_field_bokeh_shape=0
 camera/depth_of_field/depth_of_field_bokeh_quality=0
 environment/ssao/quality=0
+environment/ssao/adaptive_target=0.2
+environment/ssao/blur_passes=1
 environment/ssil/quality=0
+environment/ssil/adaptive_target=0.2
+environment/ssil/blur_passes=1
 viewport/hdr_2d=true
 textures/decals/filter=0
 textures/light_projectors/filter=0
-occlusion_culling/occlusion_rays_per_thread=256
+occlusion_culling/occlusion_rays_per_thread=16
 environment/glow/upscale_mode=0
 environment/screen_space_reflection/roughness_quality=0
 environment/subsurface_scattering/subsurface_scattering_quality=0
+environment/subsurface_scattering/subsurface_scattering_scale=0.02
 limits/global_shader_variables/buffer_size=256
+global_illumination/sdfgi/probe_ray_count=0
+global_illumination/sdfgi/frames_to_converge=0
+environment/volumetric_fog/volume_size=16
+environment/volumetric_fog/volume_depth=16
+environment/volumetric_fog/use_filter=0
+limits/opengl/max_renderable_elements=32768
 environment/defaults/default_clear_color=Color(1, 1, 1, 1)
+lights_and_shadows/positional_shadow/atlas_size=256
+lights_and_shadows/positional_shadow/atlas_size.mobile=256
+lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv=0
+lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv=0
+lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv=0
+lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv=0
 2d/snapping/use_gpu_pixel_snap=true
 environment/default_environment="res://default_env.tres"
