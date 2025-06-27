@@ -1,5 +1,6 @@
 [gd_scene load_steps=47 format=4 uid="uid://cf60kam87qyw0"]
 
+[ext_resource type="AudioStream" uid="uid://blngte4061mk2" path="res://objetos/harp-ascend-wind-chimes-SBA-300119887.mp3" id="1_0cow8"]
 [ext_resource type="Script" uid="uid://cs32erlrwom86" path="res://escenas/game_manager.gd" id="1_ce5gn"]
 [ext_resource type="Shader" uid="uid://bsucs8uwaob3n" path="res://Scripts/Mar2.gdshader" id="1_nd4hs"]
 [ext_resource type="PackedScene" uid="uid://us211skwr1d4" path="res://escenas/Player.tscn" id="1_odl16"]
@@ -19,7 +20,6 @@
 [ext_resource type="Texture2D" uid="uid://bufo6a8bnmioa" path="res://objetos/Tilesets/tileset-128.png" id="7_xxq0m"]
 [ext_resource type="Script" uid="uid://6etmjkavxuo5" path="res://escenas/npc.gd" id="12_qegge"]
 [ext_resource type="Texture2D" uid="uid://duvvgldekv1hg" path="res://objetos/Sprite-Sheet-Final.png" id="13_cfgnq"]
-[ext_resource type="AudioStream" uid="uid://5nskd5go2rvj" path="res://objetos/harp-ascend-wind-chimes-SBA-300119887.wav" id="15_m82y5"]
 [ext_resource type="Texture2D" uid="uid://die4cd7e6fhti" path="res://objetos/Yate.png" id="16_uwokv"]
 [ext_resource type="AudioStream" uid="uid://chxebl7xaweqp" path="res://objetos/Chavos-Bien-8-bits.mp3" id="22_0cow8"]
 
@@ -474,7 +474,7 @@ size = Vector2(9.08725, 31.8053)
 
 [node name="Harp" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(254, -514)
-stream = ExtResource("15_m82y5")
+stream = ExtResource("1_0cow8")
 volume_db = 5.0
 script = ExtResource("2_0cow8")
 

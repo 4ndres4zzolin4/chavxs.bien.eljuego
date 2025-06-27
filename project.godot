@@ -137,6 +137,7 @@ rendering_device/staging_buffer/max_size_mb=32
 rendering_device/vulkan/max_descriptors_per_pool=128
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
 textures/webp_compression/compression_method=4
 limits/time/time_rollover_secs=32.0
 lights_and_shadows/directional_shadow/size=256

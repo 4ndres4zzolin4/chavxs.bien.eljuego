@@ -1,6 +1,5 @@
 extends Node
 
-var flecha = preload("res://escenas/Flechaaaa.tscn")
 var coins = 0
 @onready var coins_label = $CanvasLayer/CoinsLabel
 	
@@ -10,8 +9,7 @@ var coins = 0
 func add_coin():
 	coins += 1
 	coins_label.text = "Ingredientes " + str(coins)
-	var instance = flecha.instantiate()
-	instance.position = Vector2(370, 166)
+
 	if coins == 1:
 		DialogueManager.show_example_dialogue_balloon(load("res://dialogue/item1.dialogue"))
 	if coins == 2:
@@ -22,5 +20,8 @@ func add_coin():
 		DialogueManager.show_example_dialogue_balloon(load("res://dialogue/item4.dialogue"))
 	if coins == 5:
 		DialogueManager.show_example_dialogue_balloon(load("res://dialogue/item5.dialogue"));
+		var flecha = load("res://escenas/Flechaaaa.tscn")
+		var instance = flecha.instantiate()
+		instance.position = Vector2(370, 166)
 		add_child(instance)
 		
