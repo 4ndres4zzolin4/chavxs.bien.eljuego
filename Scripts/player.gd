@@ -11,7 +11,7 @@ var movement_direction: Vector2 = Vector2.ZERO
 
 func _ready() -> void:
 	animation_tree.active = true;
-	DialogueManager.show_example_dialogue_balloon(load("res://item0.dialogue"));
+	#DialogueManager.show_example_dialogue_balloon(load("res://item0.dialogue"));
 	
 
 func _physics_process(delta: float) -> void:

@@ -14,3 +14,4 @@ res://escenas/game_manager.gd
 res://addons/dialogue_manager/dialogue_label.gd
 res://escenas/flecha.gd
 res://escenas/menu.gd
+res://escenas/npc.gd
