@@ -1,0 +1,14 @@
+res://addons/dialogue_manager/example_balloon/example_balloon.tscn::0a358deb67c3657d065367fa5944ad51::1751003612::res://.godot/exported/133200997/export-57fc9b32a4ae3d4a3041b46baf4b8f92-example_balloon.scn
+res://addons/dialogue_manager/example_balloon/small_example_balloon.tscn::505cc067befdb1daaca453fd87d0a6a2::1750614794::res://.godot/exported/133200997/export-25872080cd204f02261b5746b425708f-small_example_balloon.scn
+res://addons/dialogue_manager/dialogue_label.tscn::5087c11b45dfaf8effc779674dfe11e8::1750866696::res://.godot/exported/133200997/export-e41b7d5321416240678013b406b79557-dialogue_label.scn
+res://addons/dialogue_manager/test_scene.tscn::5946a9a55ceff988ba46e7f734ff0538::1750614794::res://.godot/exported/133200997/export-74a175fe1e216df3bdf79c5c27a2ac2c-test_scene.scn
+res://escenas/Chavxs.tscn::4411b1b3aa36a47a7bbd59b8addff7b2::1751003612::res://.godot/exported/133200997/export-637c2f578195dc075adb569945776223-Chavxs.scn
+res://escenas/Flechaaaa.tscn::aad3dce1f425a3a3e75b937423771786::1751003612::res://.godot/exported/133200997/export-067a6cf0f69cb7809b4ca96f10dc32e6-Flechaaaa.scn
+res://escenas/Intro.tscn::2f1570d35ea4b9c668d60f4fa752ec2b::1751003612::res://.godot/exported/133200997/export-7778ab969e7b5756164bbeb642f50fc4-Intro.scn
+res://escenas/laberinto.tscn::7111ef0dd34656e759b44ecf5662f8af::1750612728::res://.godot/exported/133200997/export-fd74614a92fe38a1d03684a424bcc4e6-laberinto.scn
+res://escenas/Menu.tscn::09baa6a9f9758ea4baa336f26dc469e5::1751003612::res://.godot/exported/133200997/export-897a1518a2aca9cd83fdd819d3522772-Menu.scn
+res://escenas/Outro.tscn::9e3094dc86a018581bccf431dda1dca4::1751003612::res://.godot/exported/133200997/export-d0e6599176978e61f87e97fd09fb864c-Outro.scn
+res://escenas/Player.tscn::f4ee9002f3fb249f96597ce1834125dd::1751003612::res://.godot/exported/133200997/export-49bf1799fc3244da1519d722659f5e21-Player.scn
+res://objetos/otf/spaceRegular.tres::22b0b3dd1bb394cbd0f93457c71f9a40::1750120430::res://.godot/exported/133200997/export-9a22cc635391491b7aa2286642d13a82-spaceRegular.res
+res://objetos/balloon.tscn::d8e3c698af0d8b3340304cba0da675b2::1751003612::res://.godot/exported/133200997/export-f3e1c1a929455ec2f09957b0ab3f5b2d-balloon.scn
+res://default_env.tres::756de160834ef7cc033c2a79cd80f338::1750121600::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res

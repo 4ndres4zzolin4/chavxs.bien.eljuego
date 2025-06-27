@@ -1,3 +1,5 @@
+StaticBody2D
+CollisionPolygon2D
 AudioStreamPlayer2D
 AnimationPlayer
 Label
@@ -11,4 +13,3 @@ VideoStreamPlayer
 Sprite2D
 TouchScreenButton
 DirectionalLight2D
-CollisionShape2D
