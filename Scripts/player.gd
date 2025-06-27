@@ -31,5 +31,5 @@ func _physics_process(delta: float) -> void:
 	
 	animation_tree["parameters/Walk/blend_position"] = movement_direction
 
-func _on_audio_stream_player_2d_finished() -> void:
-	audio_player.play()
+#func _on_audio_stream_player_2d_finished() -> void:
+#	audio_player.play()

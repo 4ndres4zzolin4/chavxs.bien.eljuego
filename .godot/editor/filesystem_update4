@@ -9,3 +9,4 @@ res://objetos/balloon.tscn
 res://addons/dialogue_manager/example_balloon/example_balloon.tscn
 res://escenas/Flechaaaa.tscn
 res://escenas/Menu.tscn
+res://Scripts/player.gd
