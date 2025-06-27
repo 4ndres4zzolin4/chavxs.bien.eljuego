@@ -119,6 +119,7 @@ flat = true
 libraries = {
 &"": SubResource("AnimationLibrary_pg16i")
 }
+autoplay = "Scale"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
