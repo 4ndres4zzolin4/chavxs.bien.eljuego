@@ -129,6 +129,7 @@ text = "Dialogue..."
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/VBoxContainer/DialogueLabel"]
 stream = ExtResource("5_kmygl")
+stream_paused = true
 
 [node name="ResponsesMenu" type="VBoxContainer" parent="Balloon" node_paths=PackedStringArray("response_template")]
 unique_name_in_owner = true

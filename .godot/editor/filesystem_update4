@@ -15,3 +15,7 @@ res://addons/dialogue_manager/dialogue_label.gd
 res://escenas/flecha.gd
 res://escenas/menu.gd
 res://escenas/npc.gd
+res://dialogue/timeline.dtl
+res://dialogue/2.dtl
+res://dialogue/1.dtl
+res://dialogue/menu.dtl

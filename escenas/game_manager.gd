@@ -10,7 +10,8 @@ func add_coin():
 	coins += 1
 	coins_label.text = "Ingredientes " + str(coins)
 
-	#if coins == 1:
+	if coins == 1:
+		Dialogic.start("res://dialogue/1.dtl");
 		#DialogueManager.show_example_dialogue_balloon(load("res://dialogue/item1.dialogue"))
 	#if coins == 2:
 		#DialogueManager.show_example_dialogue_balloon(load("res://dialogue/item2.dialogue"))
